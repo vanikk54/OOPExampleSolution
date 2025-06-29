@@ -4,16 +4,20 @@
 class Human
 {
 private:
+	//...
+	
+protected:
 	string firstname;
 	string surname;
 	int age;
 	char gender;
 	bool alive;
+
 public:
 	Human();
-	Human(string firstname, string surname, char gender,
+	Human(string firstname, string surname, int age, char gender,
 		bool alive);
-	Human();
+	~Human();
 
 	string getFirstName();
 	void setFirstName(string firstname);
@@ -23,8 +27,8 @@ public:
 	void setAge(int age);
 	char getGender();
 	void setGender(char gender);
-	bool getAlive();
-	void setAlive(bool alive);
+	bool isAlive();
+	void setAlive(bool alive);	
 	string toString();
 };
 

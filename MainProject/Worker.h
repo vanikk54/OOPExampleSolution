@@ -8,12 +8,12 @@ private:
 
 public:
 	Worker();
-	Worker(string firstname, string surname, char gender,
+	Worker(string firstname, string surname, int age, char gender,
 		bool alive, double salary);
-	Worker();
+	~Worker();
 
 	double getSalary();
-	void setSalary(double  salary);
+	void setSalary(double salary);
 	string toString();
 };
 

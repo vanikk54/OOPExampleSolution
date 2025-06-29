@@ -3,37 +3,16 @@
 #include "Worker.h"
 
 int main() {
-	Worker worker;
+	//Human human;
+	//Student student;
+	// 1)Worker worker;
+	// 2)Worker* workers = new Worker;
+	// 3)Human* human = new Worker;
+	//   Human* human = new Worker;
 
-	worker.
+	Human* human = new Worker;
 
-	//int size;
+	cout << human->toString() << endl;
 
-	//cout << "Input size of students: ";
-	//cin >> size;
-
-	//Student* students = new Student[size];
-
-	//Initializer initializer;
-
-	//initializer.init(students, size);
-
-	//for (int i = 0; i < size; i++)
-	//{
-		//cout << students[i].toString() << endl;
-	//}
-
-	//Manager manager;
-
-	//Student bestStudent = manager.findBestStudent(students, size);
-	//Student worstStudent = manager.findWorstStudent(students, size);
-	//double average = manager.calculateAverageMark(students, size);
-
-	//cout << "Best student: " << bestStudent.toString() << endl;
-	//cout << "Worst student: " << worstStudent.toString() << endl;
-	//cout << "Students' average mark is " << average << endl;
-
-	//delete[] students;
-
-	//return 0;
-//}
+	return 0;
+	}

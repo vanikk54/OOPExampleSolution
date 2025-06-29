@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainProject", "MainProject\MainProject.vcxproj", "{A819D211-ABC2-4BE6-9260-F700EE21D7BC}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegerProject", "IntegerProject\IntegerProject.vcxproj", "{BF491E9D-6CE8-4AF0-9D7F-C882EFD25656}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ADSProject", "ADSProject\ADSProject.vcxproj", "{DDD6A791-CCB6-4AC5-9527-E5B79D920C3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TransportProject", "TransportProject\TransportProject.vcxproj", "{AA71D300-8B13-490C-9A04-CCA17598B15A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{DDD6A791-CCB6-4AC5-9527-E5B79D920C3C}.Release|x64.Build.0 = Release|x64
 		{DDD6A791-CCB6-4AC5-9527-E5B79D920C3C}.Release|x86.ActiveCfg = Release|Win32
 		{DDD6A791-CCB6-4AC5-9527-E5B79D920C3C}.Release|x86.Build.0 = Release|Win32
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Debug|x64.ActiveCfg = Debug|x64
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Debug|x64.Build.0 = Debug|x64
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Debug|x86.Build.0 = Debug|Win32
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Release|x64.ActiveCfg = Release|x64
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Release|x64.Build.0 = Release|x64
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Release|x86.ActiveCfg = Release|Win32
+		{AA71D300-8B13-490C-9A04-CCA17598B15A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
